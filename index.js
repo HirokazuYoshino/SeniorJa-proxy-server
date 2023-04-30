@@ -1,5 +1,5 @@
 const express = require("express")
-const app = express()　
+const app = express()
 const { createProxyMiddleware } = require("http-proxy-middleware") 
 const rateLimit = require("express-rate-limit")
 require("dotenv").config()
@@ -14,7 +14,7 @@ app.use(limiter)
 
 app.get("/", (req, res) => {  
     res.send("This is my proxy server")
-})　
+})
 
 app.use("/weather-data", (req, res, next) => {
     const city = url.parse(req.url).query 
