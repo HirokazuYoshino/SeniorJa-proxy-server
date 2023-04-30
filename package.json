@@ -1,0 +1,18 @@
+{
+  "name": "seniorja-proxy-server",
+  "version": "1.0.0",
+  "description": "***\r 1. SeniorJaでAPIの練習をするための、プロキシサーバーを準備。\r 2. npmを使ってプロキシサーバーを設定。\r 3. Vercelのサービスを活用。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
