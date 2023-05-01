@@ -25,6 +25,7 @@ app.use("/weather-data", (req, res, next) => {
             [`^"/weather-data`]: "",
         },
     })(req, res, next)
+    
 })
 
 app.use("/corona-tracker-country-data", (req, res, next) => {
