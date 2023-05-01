@@ -13,7 +13,7 @@ const limiter = rateLimit({
 app.use(limiter)
 
 app.get("/", (req, res) => {  
-    res.send("This is my proxy server")
+    res.send("This is my seniorja proxy server")
 })
 
 app.use("/weather-data", (req, res, next) => {
